@@ -13,7 +13,7 @@ import About from './Components/About';
 function App() {
 
   const [darkMode, setdarkMode] = useState('light')
-//   const [alert, setAlert] = useState(null)
+  const [alert, setAlert] = useState(null)
   const [bg, setbg] = useState({
     backgroundColor : '#cceeff',
     color : 'black'
