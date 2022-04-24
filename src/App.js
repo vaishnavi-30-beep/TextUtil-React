@@ -5,15 +5,15 @@ import { useState } from 'react/cjs/react.development';
 //import Alert from './Components/Alert';
 import {  BrowserRouter as Router,
   Switch,
-  Route,
-  Link } from 'react-router-dom';
+  Route
+       } from 'react-router-dom';
 import About from './Components/About';
 
 
 function App() {
 
   const [darkMode, setdarkMode] = useState('light')
-  const [alert, setAlert] = useState(null)
+//   const [alert, setAlert] = useState(null)
   const [bg, setbg] = useState({
     backgroundColor : '#cceeff',
     color : 'black'
