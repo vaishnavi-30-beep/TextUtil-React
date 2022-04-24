@@ -37,13 +37,13 @@ export default function TextForm(props) {
       props.showAlert("Converted to alternate case", "success")
 
     }
-    const noOfWords = (str)=>{
+//     const noOfWords = (str)=>{
 
-      for(let i = 0; i < str.length(); i++){
-        if(str[i] == ' ')
-          str
-      }
-    }
+//       for(let i = 0; i < str.length(); i++){
+//         if(str[i] == ' ')
+//           str
+//       }
+//     }
   
     console.log('MODE ::: ',props.mode)
     
